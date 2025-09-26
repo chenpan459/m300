@@ -1,0 +1,7 @@
+
+
+假设串口设备是 /dev/ttyS0 或 /dev/ttyUSB0：
+stty -F /dev/ttyS0 speed 921600
+
+查看当前配置：
+stty -F /dev/ttyS0 -a
